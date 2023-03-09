@@ -1,0 +1,152 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    font-size: 1.2rem;
+}
+.red-nav{
+    font-size: 16px;
+    background-color: red;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+    margin-top: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.red-nav , .black-nav{
+    z-index: 20;
+}
+.red-nav .nav-left li{
+    display: inline-block;
+    padding-top: 15px;
+    
+}
+.red-nav .nav-left li:last-child {
+    margin-left: 70px;
+    font-style: italic;
+}
+.red-nav .nav-right li {
+    display: inline-block;
+    padding-top: 15px;
+}
+
+.red-nav .nav-right li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    font-size: 2rem;
+}
+.black-nav{
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    background-color: black;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 10px;
+    position: fixed;
+    top: 34px;
+    right: 0;
+    left: 0;
+}
+
+.mid-class{
+    width: 70%;
+    display: flex;
+}
+.mid-class li {
+   width: 25%;
+   text-align: center;
+    padding-top: 15px;
+    list-style: none;
+}
+/* .mid-class .link:hover {
+    color: red;
+} */
+.mid-class .a-link:hover{
+    color: yellow;
+}
+
+
+
+.sub-menu1{
+    display: block;
+    position: absolute;
+    top: 80%;
+    left: 25%;
+    padding: none;
+    background-color: black;
+    
+}
+.sub-menu1 ul{
+    display: inline-block;
+    padding-right: 35px;
+    
+}
+.sub-menu1 ul li{
+    width: 100%;
+    padding-right: 30px;
+    margin: 10px auto 20px auto;
+   
+}
+.sub-menu1 ul li a{
+    text-decoration: none;
+    color: white;
+}
+.sub-menu1 {
+    display: none;
+}
+ .sub-menu1 .mid-class .a-link:hover{
+    display: block;
+}
+
+
+.mid-class li .link{
+    text-decoration: none;
+    color: white;
+}
+.mid-class li .home-link {
+        text-decoration: none;
+            color: white;
+}
+
+.mid-class .home{
+    width: 15%;
+    padding-top: 25px;
+}
+.black-nav .material-symbols-outlined {
+    position: relative;
+    top: 6px;
+    padding-left: 2px;
+    margin-left: -4px;
+}
+.last-class{
+    width: 18%;
+    display: flex;
+    justify-content: space-between;
+}
+.black-nav .donate-btn {
+    background-color: red;
+    color: white;
+    padding: 15px 22%;
+    margin: 7px auto;
+    border-radius: 20px;
+    font-size: 16px;
+}
+.black-nav .bar {
+    all: unset;
+    cursor: pointer;
+    color: white;
+    background-color: none;
+    font-size: 2.5rem;
+}
+.hide{
+    display: none;
+}
